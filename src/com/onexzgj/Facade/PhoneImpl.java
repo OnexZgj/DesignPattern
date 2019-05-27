@@ -8,8 +8,6 @@ public class PhoneImpl implements Phone {
 
     @Override
     public void hangup() {
-
         System.out.println("挂断");
-
     }
 }

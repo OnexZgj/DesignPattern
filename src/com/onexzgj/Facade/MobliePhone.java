@@ -5,7 +5,6 @@ public class MobliePhone {
     private Phone mPhone=new PhoneImpl();
     private Camera mCamera=new CameraImpl();
 
-
     /**
      * 视频聊天
      */
@@ -38,6 +37,5 @@ public class MobliePhone {
     public void colseCamera(){
         mCamera.close();
     }
-
 
 }

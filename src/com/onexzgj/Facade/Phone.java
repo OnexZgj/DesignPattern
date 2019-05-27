@@ -7,11 +7,9 @@ public interface Phone {
      */
     void dail();
 
-
     /**
      * 挂断
      */
     void hangup();
-
 
 }

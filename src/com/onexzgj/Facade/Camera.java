@@ -1,7 +1,6 @@
 package com.onexzgj.Facade;
 
 public interface Camera {
-
     /**
      * 打开相机
      */
