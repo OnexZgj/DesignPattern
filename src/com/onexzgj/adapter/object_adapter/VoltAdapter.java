@@ -3,7 +3,7 @@ package com.onexzgj.adapter.object_adapter;
 import com.onexzgj.adapter.class_adapter.FiveVolt;
 
 /**
- * des：
+ * des：适配器
  * author：onexzgj
  * time：2019/5/27
  */

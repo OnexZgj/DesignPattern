@@ -10,7 +10,8 @@ public class Test {
     public static void main(String[] args){
 
         VoltAdapter adapter=new VoltAdapter();
-        adapter.getVolt5();
+
+        System.out.println("转化后的电压为 : " + adapter.getVolt5());
 
     }
 }
