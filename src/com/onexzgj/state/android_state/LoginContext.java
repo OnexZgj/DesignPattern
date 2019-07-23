@@ -2,7 +2,7 @@ package com.onexzgj.state.android_state;
 
 public class LoginContext implements UserState {
 
-    UserState mState=new LoginOutState();
+    UserState mState=new LogOutState();
 
     static LoginContext sLoginContext=new LoginContext();
 
@@ -10,7 +10,6 @@ public class LoginContext implements UserState {
     public static LoginContext getInstance(){
         return sLoginContext;
     }
-
 
     public void setState(UserState state){
         if (state instanceof LoginContext) {
@@ -20,7 +19,6 @@ public class LoginContext implements UserState {
         }
         mState=state;
     }
-
 
     @Override
     public void commont() {

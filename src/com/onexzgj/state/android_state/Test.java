@@ -12,7 +12,7 @@ public class Test {
         LoginContext.getInstance().forward();
 
         //注销成功
-        LoginContext.getInstance().setState(new LoginOutState());
+        LoginContext.getInstance().setState(new LogOutState());
         LoginContext.getInstance().forward();
 
     }

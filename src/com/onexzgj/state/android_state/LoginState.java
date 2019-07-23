@@ -1,5 +1,8 @@
 package com.onexzgj.state.android_state;
 
+/**
+ * 登录状态行为
+ */
 public class LoginState implements UserState {
     @Override
     public void commont() {

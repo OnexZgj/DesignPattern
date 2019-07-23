@@ -1,6 +1,9 @@
 package com.onexzgj.state.android_state;
 
-public class LoginOutState implements UserState {
+/**
+ * 注销状态行为
+ */
+public class LogOutState implements UserState {
     @Override
     public void commont() {
 
