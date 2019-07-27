@@ -5,7 +5,13 @@ package com.onexzgj.memo;
  */
 public class Memoto {
 
+    /**
+     * 用户ID
+     */
     public String userId;
+    /**
+     * 游戏进度
+     */
     public int progress;
 
     public String getUserId() {

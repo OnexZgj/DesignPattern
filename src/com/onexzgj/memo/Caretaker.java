@@ -7,18 +7,19 @@ public class Caretaker {
     private Memoto mMemoto;
 
     /**
-     * 存档
+     * 保存状态
      * @param memoto 备忘录对象
      */
     public void saveMemoto(Memoto memoto){
         this.mMemoto=memoto;
     }
 
-
+    /**
+     * 获取状态对象
+     * @return
+     */
     public Memoto getMemoto(){
         return mMemoto;
     }
-
-
 
 }
