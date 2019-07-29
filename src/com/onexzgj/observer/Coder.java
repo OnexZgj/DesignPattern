@@ -3,6 +3,9 @@ package com.onexzgj.observer;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * ConcrereObserver 具体观察者
+ */
 public class Coder implements Observer {
 
     public String mName;
