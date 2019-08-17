@@ -6,7 +6,6 @@ public class CEO extends Staff{
     private static final CEO ceo=new CEO();
 
     private CEO(){
-
     }
 
     public static CEO getCeo(){
